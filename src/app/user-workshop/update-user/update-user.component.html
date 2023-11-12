@@ -1,0 +1,28 @@
+<p>update-user works!</p><form #formUser="ngForm" (ngSubmit)="update(formUser)">
+  <label >firstname</label>
+  <input type="text" ngModel name="fn"  [(ngModel)]="user.firstName" >
+
+
+  <label >lastname</label>
+  <input type="text" ngModel name="ln" [(ngModel)]="user.lastName" >
+
+
+
+  <label >birthdate</label>
+  <input type="text" ngModel name="bd" [(ngModel)]="user.birthDate">
+  <label >email</label>
+  <input type="text" ngModel name="email"  [(ngModel)]="user.email">
+
+  <label >accountCategory</label>
+  <input type="text" ngModel name="accountCategory"  [(ngModel)]="user.accountCategory" >
+
+
+  <label >password</label>
+  <input type="text" ngModel name="password"  [(ngModel)]="user.password">
+
+  <label >picture</label>
+  <input type="text" ngModel name="picture" [(ngModel)]="user.picture" >
+  <label >profession</label>
+  <input type="text" ngModel name="profession"   [(ngModel)]="user.profession">
+  <button type="submit">update</button>
+</form>

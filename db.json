@@ -2,36 +2,43 @@
   "users": [
     {
       "id": 2,
-      "firstName": "George",
-      "lastName": "Clooney",
-      "birthDate": "1999-06-30",
-      "accountCategory": "Customer",
-      "email": "marlon@brando.com",
-      "password": "test",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar2.png",
-      "profession": "Software Engineer"
+      "accountCategory": "sqdqsd",
+      "email": "sqdqsd",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "profession": "sqdqd"
     },
     {
       "id": 3,
-      "firstName": "George",
-      "lastName": "Clooney",
-      "birthDate": "1999-06-30",
-      "accountCategory": "Customer",
-      "email": "marlon@brando.com",
-      "password": "test",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar1.png",
-      "profession": "Software Engineer"
+      "accountCategory": "sqdqsd",
+      "email": "sqdqsd",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "profession": "sqdqd"
     },
     {
       "id": 4,
-      "firstName": "Ryan",
-      "lastName": "Gossling",
-      "birthDate": "1999-06-30",
-      "accountCategory": "Golden",
-      "email": "Ryan@nicholson.com",
-      "password": "test",
-      "picture": "https://bootdey.com/img/Content/avatar/avatar4.png",
-      "profession": "Software Engineer"
+      "accountCategory": "sqdqsd",
+      "email": "sqdqsd",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "profession": "sqdqd"
+    },
+    {
+      "id": 5,
+      "firstName": "",
+      "accountCategory": "",
+      "email": "",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "profession": ""
+    },
+    {
+      "id": 6,
+      "firstName": "00000000",
+      "lastName": "55555",
+      "birthDate": "8558585",
+      "accountCategory": "58585858",
+      "email": "858585858",
+      "password": "5858585",
+      "picture": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "profession": "58585"
     }
   ]
 }

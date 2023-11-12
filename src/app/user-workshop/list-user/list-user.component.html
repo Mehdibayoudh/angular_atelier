@@ -1,6 +1,7 @@
 <p *ngFor="let u of usersList"> {{u.email}}</p>
 
-<p *ngFor="let u of usersListDbJson"> {{u.firstName}} JSON <button (click)="deleteUser(u)"> delete </button></p>
+<p *ngFor="let u of usersListDbJson"> {{u.firstName}} JSON <button (click)="deleteUser(u)"> delete </button>
+  <button routerLink="/workshopUser/modifier/{{u.id}}"> update </button></p>
 
 
 <h1>
@@ -8,3 +9,32 @@
   fetchNbInListHtml()
   }}
 </h1>
+<h2>add user</h2>
+<form #formUser="ngForm" (ngSubmit)="add(formUser)">
+  <label >firstname</label>
+  <input type="text" ngModel name="fn"  >
+
+
+  <label >lastname</label>
+  <input type="text" ngModel name="ln" >
+
+
+
+  <label >birthdate</label>
+  <input type="text" ngModel name="bd">
+  <label >email</label>
+  <input type="text" ngModel name="email" >
+
+  <label >accountCategory</label>
+  <input type="text" ngModel name="accountCategory"  >
+
+
+  <label >password</label>
+  <input type="text" ngModel name="password" >
+
+  <label >picture</label>
+  <input type="text" ngModel name="picture" >
+  <label >profession</label>
+  <input type="text" ngModel name="profession"  >
+  <button type="submit">Ajouter</button>
+</form>
